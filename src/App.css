@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #000;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 2rem;
+}
+
+header img {
+  width: 200px;
+}
+
+.logo {
+  width: 100%;
+}
+
